@@ -1,0 +1,7 @@
+C:\Users\Ruslan\Desktop\Geek\GeekProject\zmeya\zmeya\zmeya\bin\Debug\zmeya.exe.config
+C:\Users\Ruslan\Desktop\Geek\GeekProject\zmeya\zmeya\zmeya\bin\Debug\zmeya.exe
+C:\Users\Ruslan\Desktop\Geek\GeekProject\zmeya\zmeya\zmeya\bin\Debug\zmeya.pdb
+C:\Users\Ruslan\Desktop\Geek\GeekProject\zmeya\zmeya\zmeya\obj\Debug\zmeya.csprojAssemblyReference.cache
+C:\Users\Ruslan\Desktop\Geek\GeekProject\zmeya\zmeya\zmeya\obj\Debug\zmeya.csproj.CoreCompileInputs.cache
+C:\Users\Ruslan\Desktop\Geek\GeekProject\zmeya\zmeya\zmeya\obj\Debug\zmeya.exe
+C:\Users\Ruslan\Desktop\Geek\GeekProject\zmeya\zmeya\zmeya\obj\Debug\zmeya.pdb
