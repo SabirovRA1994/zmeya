@@ -16,6 +16,15 @@ namespace Snake
             Point p2 = new Point(15,19, '#');           
             p2.Draw();
 
+            List<int> Spisok = new List<int>();
+            Spisok.Add(1);
+            Spisok.Add(2);
+            Spisok.Add(0);
+
+            int x = Spisok[0];
+            int y = Spisok[1];
+            int z = Spisok[2];
+                                                  
             Console.ReadLine();
 
 
