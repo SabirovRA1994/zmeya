@@ -12,6 +12,7 @@ namespace Snake
         {
             Point p1 = new Point(10,11, '*');
             p1.Draw();
+            
 
             Point p2 = new Point(15,19, '#');           
             p2.Draw();
@@ -24,9 +25,27 @@ namespace Snake
             int x = Spisok[0];
             int y = Spisok[1];
             int z = Spisok[2];
-                                                  
-            Console.ReadLine();
 
+            foreach (int i in Spisok)
+            {
+                Console.WriteLine(i);
+
+            }
+
+            Spisok.RemoveAt(0);
+
+            List<Point> SpisokPoint = new List<Point>();
+            {
+                SpisokPoint.Add(p1);
+                SpisokPoint.Add(p2);
+
+            }
+
+        
+            
+            Console.ReadLine();
+            
+            
 
         }
 
