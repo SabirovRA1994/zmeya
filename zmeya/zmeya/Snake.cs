@@ -8,7 +8,8 @@ namespace zmeya
 {
     class Snake : Figure
     {
-        Direction direction;
+        public Direction direction;
+
         public Snake(Point tall, int Leight, Direction _direction)
         {
             direction = _direction;
@@ -40,6 +41,18 @@ namespace zmeya
             nextPoint.Move(1, direction);
             return nextPoint;
 
+        }
+
+        public void Uprav(ConsoleKey Key)
+        {
+            if (Key == ConsoleKey.LeftArrow)
+                direction = Direction.Left;
+            else if (Key == ConsoleKey.RightArrow)
+                direction = Direction.Rigth;
+            else if (Key == ConsoleKey.UpArrow)
+                direction = Direction.Up;
+            else if (Key == ConsoleKey.DownArrow)
+                direction = Direction.Down;
         }
     }
 
