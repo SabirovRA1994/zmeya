@@ -10,11 +10,11 @@ namespace zmeya
     {
         public VerticalLine(int yTop, int yDown, int x, char sym)
         {
-            Stena = new List<Point>();
+            pList = new List<Point>();
             for (int y = yTop; y <= yDown; y++)
             {
                 Point p = new Point(x, y, sym);
-                Stena.Add(p);
+                pList.Add(p);
             }
                           
         }

@@ -10,11 +10,11 @@ namespace zmeya
     {
         public HorisontalLine(int xLeft, int xRight, int y, char sym)
         {
-            Stena = new List<Point>();
+            pList = new List<Point>();
             for (int x = xLeft; x <= xRight; x++)
             {
                 Point p = new Point(x, y, sym);
-                Stena.Add(p);
+                pList.Add(p);
             }
                           
         }
