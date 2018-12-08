@@ -6,27 +6,19 @@ using System.Threading.Tasks;
 
 namespace zmeya
 {
-    class HorisontalLine
+    class HorisontalLine : Figure
     {
-        List<Point> HStena;
-
         public HorisontalLine(int xLeft, int xRight, int y, char sym)
         {
-            HStena = new List<Point>();
+            Stena = new List<Point>();
             for (int x = xLeft; x <= xRight; x++)
             {
                 Point p = new Point(x, y, sym);
-                HStena.Add(p);
+                Stena.Add(p);
             }
                           
         }
-        public void Drow()
-        {
-            foreach (Point p in HStena)
-            {
-                p.Draw();
-            }
-        }
+        
         
     }
 }
